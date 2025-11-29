@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据指标选择</title>
+    <link rel="stylesheet" href="data-indicator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>数据指标选择</h1>
+            <button class="setting-btn">指标设置</button>
+        </div>
+        <div class="selection-summary">
+            <p>已选择 4 个对象，共 6 个指标</p>
+            <div class="selected-objects"></div>
+            <div class="selected-indicators"></div>
+        </div>
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="search-bar">
+                    <input type="text" placeholder="搜索系统实例">
+                </div>
+                                <div class="tree-view">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="station-1">
+                            <label for="station-1">合肥一中站（王彩云）</label>
+                            <span>热力站</span>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="unit-1-1">
+                                    <label for="unit-1-1">1号机组</label>
+                                    <span>机组</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="unit-1-2">
+                                    <label for="unit-1-2">2号机组</label>
+                                    <span>机组</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="pump-1-1">
+                                    <label for="pump-1-1">热泵A</label>
+                                    <span>热泵</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="station-2">
+                            <label for="station-2">123,112</label>
+                            <span>热力站</span>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="unit-2-1">
+                                    <label for="unit-2-1">1号机组</label>
+                                    <span>机组</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="pump-2-1">
+                                    <label for="pump-2-1">热泵B</label>
+                                    <span>热泵</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle-panel">
+                <div class="indicator-selection">
+                    <h2>数据指标 (最多选择8个)</h2>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="indicator-settings">
+                    <h2>指标设置</h2>
+                    <button class="confirm-btn">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="data-indicator.js"></script>
+</body>
+</html>
