@@ -1,0 +1,140 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.setting-btn {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selection-summary {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.left-panel, .middle-panel, .right-panel {
+    padding: 10px;
+}
+
+.left-panel {
+    width: 300px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.middle-panel {
+    flex-grow: 1;
+    margin: 0 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.right-panel {
+    width: 250px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.tree-view {
+    margin-top: 10px;
+}
+
+.tree-view ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.tree-view li {
+    margin: 8px 0;
+}
+
+.tree-view label {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.tree-view span {
+    float: right;
+    background-color: #e6f7ff;
+    color: #1890ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.selected-group {
+    margin-bottom: 10px;
+}
+
+.type-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.selected-tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.remove-tag {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #999;
+}
+
+.indicator-type-group {
+    margin-bottom: 20px;
+}
+
+.indicator-group {
+    margin-bottom: 10px;
+}
+
+.indicator-group strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.indicator-group ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.indicator-group li {
+    display: inline-block;
+    margin-right: 15px;
+}
